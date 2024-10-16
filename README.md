@@ -34,10 +34,10 @@ Se define como una instancia de una clase. El objeto puede tener un estado y un 
 
 ## 6.- ¿ CUALES SON LOS PILARES DE POO?
 
--Polimorfismo
--Herencia
--Encapsulacion
--Abstraccion
+- Polimorfismo 
+- Herencia
+- Encapsulacion
+- Abstraccion
 
 ## 7.- TIPOS DE VARIABLES
 - Locales: definidas dentro deun bloque, todo o constructor
@@ -57,10 +57,10 @@ Se define como una instancia de una clase. El objeto puede tener un estado y un 
 EJEMPLO CODIGO -> https://github.com/doxcom/Java-Excercises/tree/main/Colecciones
 
 ## 9.- ¿QUE ES EL PATRON SINGLETON?
--Es un patron que tiene como objetivo de asegurar de que existe tan solo UNA INSTANCIA de una clase concreta
+- Es un patron que tiene como objetivo de asegurar de que existe tan solo UNA INSTANCIA de una clase concreta
 evitando asi hacer mas de una clase u objeto, singleton debe proveer una accesibilidad global a esta instancia
 
--Para conseguir que una clase sea de tipo Singleton necesitamos en primer lugar que su constructor sea privado. 
+- Para conseguir que una clase sea de tipo Singleton necesitamos en primer lugar que su constructor sea privado. 
 De esa forma ningún programa será capaz de construir objetos de esta tipo y por lo tanto no podremos construir 
 ninguno estaremos en cero En segundo lugar necesitaremos disponer de una variable estática privada que almacene 
 una referencia al objeto que vamos a crear a traves del constructor . Por ultimo un método estático publico que se
@@ -72,12 +72,12 @@ EJEMPLO CODIGO:-> https://github.com/doxcom/Java-Excercises/tree/main/PatronesDi
 
 ## 10.- ¿DIFERENCIA ENTRE CLASE ABSTRACTA E INTERFAZ?
 
--En una interfaz todos sus metodos deben ser implementados de la clase que la implemente, asi
+- En una interfaz todos sus metodos deben ser implementados de la clase que la implemente, asi
 class java1 implements interface1{}...  , una interfaz a su vez puede heredar a otra misma con la palabra extends
 public interface ReproductorMusica extends Reproductor{...
 
 
--En una clase abstracta puede heredar o extender cualquier clase, mientras que la interfaz solo puede extender o 
+- En una clase abstracta puede heredar o extender cualquier clase, mientras que la interfaz solo puede extender o 
 implementar  otras interfaces puede tambien contener metodos abstractos o que no lo sean, mientras que las interfaces 
 solo pueden definir metodos abstractos(Los métodos abstractos en una interfaz son métodos que no tienen implementación,
 es decir, no llevan código. En una interfaz, todos los métodos son implícitamente abstractos
@@ -112,3 +112,4 @@ y luego reconstruida como un objeto nuevo.).
 
 Spring beans are just object instances that are managed by the Spring IOC container.
 They’re created based on BeanDefinition.
+
