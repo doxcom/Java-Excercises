@@ -1,15 +1,14 @@
-# javaExcercises
-#
-#100 PREGUNTAS Y CONCEPTOS JAVA
+
+# 100 PREGUNTAS Y CONCEPTOS JAVA
 
 
-Encapsulamiento:
-permite ocultar la complejidad interna de un objeto y exponer solo las operaciones necesarias para su uso
-ejemplo en Paquete Encapsulamiento con la  clase Telefono y Tablet heredan de la clase Bateria.java  el código encapsula el concepto de batería mediante delegación.
-con el atributo de "capacidad"
+## 1.- ¿QUE ES ENCAPSULAMIENTO?:
+- permite ocultar la complejidad interna de un objeto y exponer solo las operaciones necesarias para su uso
+ejemplo en Paquete Encapsulamiento con la  clase Telefono y Tablet heredan de la clase Bateria.java  
+el código encapsula el concepto de batería mediante delegación. con el atributo de "capacidad"
 
 
-Herencia:
+## 2.- ¿QUE ES LA HERENCIA?:
 permite crear nuevas clases a partir de clases existentes, aprovechando sus atributos y métodos.
 La herencia permite la reutilización de código y la simplificación de la estructura de los programas.
 
@@ -86,7 +85,7 @@ En segundo lugar necesitaremos disponer de una variable estática privada que al
 Por ultimo un método estático publico que se encarga de instanciar el objeto la primera vez y almacenarlo en la variable estática apoyándose en el constructor
 privado que recordemos se puede llamar desde la misma clase.
 
-EJEMPLO CODIGO:->
+EJEMPLO CODIGO:-> https://github.com/doxcom/Java-Excercises/tree/main/PatronesDise%C3%B1o
 
 
 
@@ -105,4 +104,4 @@ public interface ReproductorMusica extends Reproductor{...
 puede tambien contener metodos abstractos o que no lo sean, mientras que las interfaces solo pueden definir metodos abstractos(Los métodos abstractos en una 
 interfaz son métodos que no tienen implementación, es decir, no llevan código. En una interfaz, todos los métodos son implícitamente abstractos, 
 
-por lo que no es necesario utilizar la palabra clave abstracta al declarar una interfaz)
+por lo que no es necesario utilizar la palabra clave abstracta al declarar una interfaz
