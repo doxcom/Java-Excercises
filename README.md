@@ -113,3 +113,96 @@ y luego reconstruida como un objeto nuevo.).
 Spring beans are just object instances that are managed by the Spring IOC container.
 They’re created based on BeanDefinition.
 
+## 13.- TIPOS DE ASIGNACION DE MEMORIA EN JAVA
+
+- Memory Heap: El espacio Heap es usado para la colocación dinámica de objetos Java y clases JRE en tiempo de ejecución.
+Los nuevos objetos que se van necesitando, son creados siempre en el espacio HEAP y la referencia a estos objetos 
+son almacenados en la memory stack
+
+- Memory Stack: La memoria Stack se usa para almacenar las variables locales (cuyo ámbito de acción está limitada solo 
+a la función donde se declaró) y también las llamadas de funciones en Java. La memory Stack es usada para la ejecución 
+de un thread teniendo referencia a otros objetos del heap. 
+
+## 14.- CLASES WRAPPER
+
+En java admitimos datos primitivos:
+
+- byte
+- short
+- int
+- long
+- float
+- double
+- boolean
+- char
+
+las clases envolventes(wrappers) ayudan a convertir este tipo de datos primitivos en objetos (Autoboxing) o tipos de
+y viceversa (Unboxing), los wrappers posen metodos ya que son objetos 
+
+Integer numWrapper = Integer.valueOf(numPrimitive);
+
+- Byte
+- Short
+- Integer
+- Long
+- Boolean
+- Float
+- Double
+- Character
+
+## 15.- ¿QUE SON LOS CONSTRUCTORES?
+
+Es el bloque de codigo que se aplica a un objeto para inicializarlo, En Java para definir un Java Constructor 
+debemos generar una función con el mismo nombre de la clase y pasarla los parámetros que consideremos adecuados a la 
+hora de inicializar los objetos.
+
+Ejemplo en clase Persona:
+
+public Persona(String nombre, int edad)
+
+Cuando una clase no contiene un constructor se llama a un constructor por defecto, gestionado por el compilador
+existen dos tipos de constructores, por defecto y parametrizados
+
+## 16.- DIFERENCIA ENTRE COLA Y PILA
+La pila se basa en el principio LIFO(ultimo en entrar primero en salir), mientras que la cola se basa
+en el principio FIFO(primero en entrar primero en salir)
+
+
+## 17.- TIPOS DE EXCEPCIONES 
+
+- Checked Exceptions: son aquellas que se deben declarar en un bloque try catch para manejar apropiadamente
+errores en la compilacion, tal como IOException, que indica un error en la entrada o salida, FileNotFoundException
+la cual indica que un archivo al cual se quiere acceder no se encuentra en el sistema, entre otras, es decir se 
+manejan en el tiempo de compilacion, se heredan de la clase Exception
+
+- Unchecked Exceptions: son excepciones que no son manejadas explicitamente, porque ocurren durante la ejecucion
+del programa, algunos ejemplos son,NullPointerException que es cuando intentamos acceder a un objeto que es null, o
+ArraysIndexOutOfBounds, cuando ingresamos a un indice fuera de rango valido, estas se heredan del RuntimeException
+
+
+## 18.- ¿QUE INDICA LA PALABRA FINAL?
+
+Nos indica que una variable, metodo, o clase no se puede modificar ni sobreescribir
+
+## 19.- SERIALIZACION DE OBJETOS
+
+La serializacion de un objeto se usa para generar una secuencia de bytes preparada para su almacenamiento o
+transmision, despues mediante la deserializacion se puede reconstruir al objeto a su estado original
+
+## 20.- ¿PARA QUE SIRVE EL GARBAGE COLLECTOR?
+Se usa de manera interna y automatica cuando ya no se hace referencia o uso de un objeto, y se destruye en automatico
+
+## 21.- ¿COMO SE GESTIONAN LAS DEPENDENCIAS?
+el uso de dependencias y librerias externas se manejan con herramientas como maven o gradle, que utilizan su propio
+lenguaje para escribir scripts de compilacion 
+
+
+## 22 .-¿QUE ES LA SINCRONIZACION?
+Son aquellos subprocesos multiples en el que un bloque de codigo sincronizado solo puede ser ejecutado por un hilo a la
+vez, java admite multiples subprocesos para la ejecucion, la sincronizacion permite ayuda a que se ejecuten de manera
+paralela aquellos subprocesos, evitando errores en el acceso de memoria compartida
+
+## 23 .- ¿PARA QUE SIRVEN LOS SETTERS Y GETTERS?
+sirven para ocultar detalles de la implementacion de los metodos de alguna interfaz o clase
+
+## https://www.freecodecamp.org/espanol/news/repasa-estas-50-preguntas-para-superar-una-entrevista-de-programacion-en-java/
