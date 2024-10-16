@@ -7,6 +7,8 @@
 ejemplo en Paquete Encapsulamiento con la  clase Telefono y Tablet heredan de la clase Bateria.java  
 el código encapsula el concepto de batería mediante delegación. con el atributo de "capacidad"
 
+EJEMPLO CODIGO -> https://github.com/doxcom/Java-Excercises/tree/main/Encapsulamiento
+
 
 ## 2.- ¿QUE ES LA HERENCIA?:
 permite crear nuevas clases a partir de clases existentes, aprovechando sus atributos y métodos.
