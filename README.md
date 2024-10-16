@@ -2,7 +2,7 @@
 # 100 PREGUNTAS Y CONCEPTOS JAVA & SPRINGBOOT
 
 
-## 1.- ¿QUE ES ENCAPSULAMIENTO?:
+## 1.- ¿QUE ES ENCAPSULAMIENTO?
 Permite ocultar la complejidad interna de un objeto y exponer solo las operaciones necesarias para su uso
 ejemplo en Paquete Encapsulamiento con la  clase Telefono y Tablet heredan de la clase Bateria.java  
 el código encapsula el concepto de batería mediante delegación. con el atributo de "capacidad"
