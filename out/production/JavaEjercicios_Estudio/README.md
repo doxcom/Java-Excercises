@@ -86,8 +86,6 @@ En segundo lugar necesitaremos disponer de una variable estática privada que al
 Por ultimo un método estático publico que se encarga de instanciar el objeto la primera vez y almacenarlo en la variable estática apoyándose en el constructor
 privado que recordemos se puede llamar desde la misma clase.
 
-EJEMPLO CODIGO:->
-
 
 
 

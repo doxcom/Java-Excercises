@@ -22,6 +22,7 @@ public class Bateria {
     public int duracionBateria(){
         if(capacidad<3000){
             return 16;
+            
         }else{
             return 24;
         }
