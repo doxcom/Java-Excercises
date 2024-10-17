@@ -77,14 +77,22 @@ class java1 implements interface1{}...  , una interfaz a su vez puede heredar a 
 public interface ReproductorMusica extends Reproductor{...
 
 
+
 - En una clase abstracta puede heredar o extender cualquier clase, mientras que la interfaz solo puede extender o 
-implementar  otras interfaces puede tambien contener metodos abstractos o que no lo sean, mientras que las interfaces 
-solo pueden definir metodos abstractos(Los métodos abstractos en una interfaz son métodos que no tienen implementación,
-es decir, no llevan código. En una interfaz, todos los métodos son implícitamente abstractos
+implementar 
 
-- no es necesario utilizar la palabra clave abstracta al declarar una interfaz
+- en la clase abstracta se permiten los metodos estaticos, mientras que en la interfaz no
 
+- en la clase abstracta estan permitidos los constructores, en la interfaz no
 
+- la clase abstracta puede tener miembros de clase privados y protegidos, mientras que los de una interfaz son publicos
+por defecto
+
+- una clase normal puede solo heredar de 1 clase abstracta a la vez,pero varias clases pueden heredar de una misma clase
+abstracta , por otro lado una clase normal si puede heredar  varias interfaces a la vez
+
+EJEMPLO CODIGO INTERFAZ FIGURA,CIRCULO Y CUADRADO ->  
+- https://github.com/doxcom/Java-Excercises/tree/main/InterfazYClaseAbstracta
 
 
 ## 11.-¿Qué son los beans de Spring y decirnos qué contenedor los gestiona?
@@ -205,4 +213,106 @@ paralela aquellos subprocesos, evitando errores en el acceso de memoria comparti
 ## 23 .- ¿PARA QUE SIRVEN LOS SETTERS Y GETTERS?
 sirven para ocultar detalles de la implementacion de los metodos de alguna interfaz o clase
 
-## https://www.freecodecamp.org/espanol/news/repasa-estas-50-preguntas-para-superar-una-entrevista-de-programacion-en-java/
+
+## 24.- DIFERENCIA ENTRE HASHTABLE Y HASHMAP:
+Hashtable esta sincronizada(significa es segura para subprocesos), mientras que hashmap no, la sincronizacion de una
+Hashtable se realiza en los metodos de acceso y mutacion, lo que impide que dos hilos diferentes agreguen o eliminen
+de manera concurrente de la lista
+
+
+## 25.- DIFERENCIA ENTRE LIST Y SET:
+
+List esta ordenada y permite duplicidad de los datos, y set esta desordenado y no permite elementos duplicados
+
+## 26.- DESCRIBA public static void main(String args [])
+
+- public: es un modificador de acceso, por lo tanto este metodo tiene acceso desde cualquier clase
+- static: nos indica que usamos este metodo sin crear un nuevo objeto de una clase
+- void: especifica el tipo de retorno, el cual no devolvera ningun valor
+- main: es el nombre que le damos al metodo, jvm reconoce como una firma particular
+- String args []: parametro del metodo
+
+## 27.- DIFERENCIA ENTRE equals() y ==
+
+El simbolo "==" es un operador, mientras que equals() es un metodo,"==" compara referencias(verifica si ambos objetos 
+apuntan a la misma ubicación de memoria ), y equals() compara contenido de ellos
+
+
+## 28.- ¿QUE SIGNIFICA QUE UN OBJETO ES INMUTABLE?
+
+Significa que no se puede modificar objetos despues de su creacion, si intentas modificarlos el objeto hace un clon
+y cambia este clon durante la creacion, un ejemplo es String, que es inmutable, String es una clase inmutable. 
+Eso significa que no puede modificar su contenido una vez creado
+
+Ejemplo ,Aqui solo hay un objeto
+
+String s1="Hello";
+String s2="Hello";
+String s3="Hello";
+
+
+
+## 29.- ¿QUE ES JAVA SPRING BOOT?
+
+Es una herramienta de desarrollo web y microservicios con java spring framework que acelera el proceso de creacion
+de aplicaciones
+
+
+## 30.- ¿QUE ES MVC en SpringBoot?
+
+Es un patron de aquitectura que se basa en tres componentes
+
+- Modelo: Representa los datos de la aplicacion y se encarga de gestionarlos, aqui se usan las anotaciones de @Table
+para mapear los campos con la base de datos, asi como sus setter y getters
+
+- Vista: se encarga de presentar los datos del modelo al usuario final
+
+- Controlador: Se encarga de gestionar la logica de como mostrar los datos y que hacer con ello
+
+## 31 .- MENCIONE COMPONENTES DE SPRINGBOOT
+
+- Repositories: conecta y enlaza los datos con la base de datos
+- Services: Coordina las fuentes de datos
+- Controllers: coordina entras y salidas de informacion @GetMapping url etc
+- Dependencias: se coordinan entre si en el tiempo de construccion del proyecto
+
+
+## 32.- ¿QUE REALIZA LA ANOTACION @Autowired?
+
+Nos Permite inyectar dependencias de forma automatica, springboot se encargara de brindar las instancias de clase
+necesarias para que funcione la aplicacion
+
+## 33.- ¿QUE REALIZA LA ANOTACION @Bean?
+
+Indica que un metodo crea, configura e inicializa un nuevo "objeto" que sera administrado por el contenedor IoC Spring
+
+## 34.- ¿QUE ES EL CONTENEDOR IoC en SpringBoot?
+
+Es un marco que implementa la inyeccion de dependencias automatizadas, (inversion of control), se encarga de crear
+los objetos, inyectar dependencias dentro de la clase, gestionar instancias
+
+
+## 35.- ¿QUE SIGNIFICA LA ANOTACION @Controller?
+
+Esta anotacion se usa para indicar que la clase es un controlador de Spring y notificar al contexto MVC
+
+## 36.- ¿QUE REALIZA LA ANOTACION @Service?
+
+Se usa en una clase que realiza algun tipo de servicio, relacionado a logica de negocios, calculos etc y llamar
+a API's externas
+
+## 36.- ¿QUE REALIZA LA ANOTACION @Repository?
+
+Se utiliza en clases que acceden directamente a la base de datos
+
+## 25.-
+## 25.-
+## 25.-
+## 25.-
+## 25.-
+## 25.-
+## 25.-
+## 25.-
+
+
+
