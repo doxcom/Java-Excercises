@@ -9,6 +9,7 @@ public class Cat extends Animal {
     * */
     @Override
     public void makeSound() {
-        super.makeSound("Miaauuuu");
+        //super.makeSound("Miau");
+        super.makeSound();
     }
 }
