@@ -305,14 +305,31 @@ a API's externas
 
 Se utiliza en clases que acceden directamente a la base de datos
 
-## 25.-
-## 25.-
-## 25.-
-## 25.-
-## 25.-
-## 25.-
-## 25.-
-## 25.-
+## 37.-¿QUE SON LAS LAMBDAS EN JAVA?
+## 38.-¿QUE ES DOCKER?
+## 25.-¿MENCIONE 3 TIPOS DE TESTING?
+## 25.-¿QUE ES UN PIPELINE?
+## 25.-¿MENCIONA OBJETOS DE LA CLASE COLLECTION?
+## 25.-¿DIFERENCIA ENTRE STRING, STRING BUILDER Y STRING BUFFER?
+## 25.-IMPLEMENTA UN LIST Y BUSCA UN NOMBRE FILTRALO USANDO LAMBDA
+## 25.-¿QUE ES HIBERNATE?
+## 25.-¿QUE ES JPA?
+## 25.-¿PARA QUE SIRVE EL OBJETO OPTIONAL EN JAVA?
+## 25.-MENCIONE METODOS HTTP
+## 25.-¿DIFERENCIA ENTRE PUT Y PATH?
+## 25.-¿MENCIONE 3 CODIGOS DE ESTADO HTTP?
+https://developer.mozilla.org/es/docs/Web/HTTP/Status
 
+## 25.-¿QUE ES UN ORM?
 
+## 25.-¿QUE REALIZA LA ANOTACION DE SPRING BATCH ?
+https://spring.io/guides/gs/batch-processing
+## 25.-¿?
+## 25.-¿?
+## 25.-¿?
+
+Ejercicios de practica:
+- buscar un numero en un arreglo de manera optima
+- comprobar si un string es palindromo o no, con espacios,caracteres, mayusculas minusculas etc
+- 
 

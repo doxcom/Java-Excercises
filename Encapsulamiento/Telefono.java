@@ -31,7 +31,7 @@ public class Telefono {
       //no tenemos que definir accion aqui, solo usar el metodo que bateria ya tiene
 
         return bateria.duracionBateria();
-    } 
+    }
 
     //el mismo ejemplo aplica para la clase Tablet, lo cual es un objeto en comun con Telefono
 }
