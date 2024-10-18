@@ -10,7 +10,7 @@ public class PalindromeOrNot {
         String word2=word.toLowerCase().replace(" ","").replace("\t","").replace("\r","");
         System.out.println(word);
         System.out.println("word without spaces and special characters:  " + word2);
-        
+
         for(int i=0, j= word2.length()-1; i<j; i++,j--){
             if(word2.charAt(i) != word2.charAt(j)){
                 return false;

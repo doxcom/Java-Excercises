@@ -1,5 +1,5 @@
 
-# 100 PREGUNTAS Y CONCEPTOS JAVA & SPRINGBOOT
+# 100 PREGUNTAS Y CONCEPTOS JAVA & SPRINGBOOT & PROGRAMACION
 
 
 ## 1.- ¿QUE ES ENCAPSULAMIENTO?
@@ -305,7 +305,7 @@ a API's externas
 
 Se utiliza en clases que acceden directamente a la base de datos
 
-## 37.-¿QUE SON LAS LAMBDAS EN JAVA?
+## 37.-¿QUE SON LAS FUNCIONES LAMBDAS EN JAVA?
 ## 38.-¿QUE ES DOCKER?
 ## 25.-¿MENCIONE 3 TIPOS DE TESTING?
 ## 25.-¿QUE ES UN PIPELINE?
@@ -324,12 +324,18 @@ https://developer.mozilla.org/es/docs/Web/HTTP/Status
 
 ## 25.-¿QUE REALIZA LA ANOTACION DE SPRING BATCH ?
 https://spring.io/guides/gs/batch-processing
-## 25.-¿?
-## 25.-¿?
-## 25.-¿?
+
+## 25.-¿SQL INNER JOIN?
+## 25.-¿QUE ES REST?
+
+## 25.-¿QUE DIFERENCIA HAY ENTRE REST Y SOAP?
+## 25.-¿QUE ES ?
+
+
+
 
 Ejercicios de practica:
 - buscar un numero en un arreglo de manera optima
 - comprobar si un string es palindromo o no, con espacios,caracteres, mayusculas minusculas etc
-- 
+- invertir una cadena de texto sin metodos de string
 
