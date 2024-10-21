@@ -306,6 +306,13 @@ a API's externas
 Se utiliza en clases que acceden directamente a la base de datos
 
 ## 37.-¿QUE SON LAS FUNCIONES LAMBDAS EN JAVA?
+
+son funciones anonimas de java que se usan al mismo tiempo que se va declarando
+de uso mas comun en aws lambda con la finalidad esencialmente de eficientar recursos
+de la instancia del contenedor o servicio
+
+
+
 ## 38.-¿QUE ES DOCKER?
 ## 25.-¿MENCIONE 3 TIPOS DE TESTING?
 ## 25.-¿QUE ES UN PIPELINE?
