@@ -343,6 +343,15 @@ https://spring.io/guides/gs/batch-processing
 
 ## 25.-¿QUE UN HILO Y MULTIHILOS?
 
+## 25.- ¿QUE SIGNIFICA FINAL CLASS?
+Que es inmutable y no se puede extender una subclase de ella
+
+## 25.- ¿que es un enum?
+## 25.- ¿QUE es serialization?
+
+
+
+
 Ejercicios de practica:
 - buscar un numero en un arreglo de manera optima
 - comprobar si un string es palindromo o no, con espacios,caracteres, mayusculas minusculas etc
