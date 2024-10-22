@@ -1,4 +1,4 @@
-
+yo
 # 100 PREGUNTAS Y CONCEPTOS JAVA & SPRINGBOOT & PROGRAMACION
 
 
@@ -336,10 +336,12 @@ https://spring.io/guides/gs/batch-processing
 ## 25.-¿QUE ES REST?
 
 ## 25.-¿QUE DIFERENCIA HAY ENTRE REST Y SOAP?
-## 25.-¿QUE ES ?
+## 25.-¿QUE ES UNA CLASE ANONIMA?
 
 
+## 25.-¿QUE ES UN STREAM EN JAVA?
 
+## 25.-¿QUE UN HILO Y MULTIHILOS?
 
 Ejercicios de practica:
 - buscar un numero en un arreglo de manera optima
