@@ -348,7 +348,9 @@ Que es inmutable y no se puede extender una subclase de ella
 
 ## 25.- ¿que es un enum?
 ## 25.- ¿QUE es serialization?
-
+## 25.- ¿QUE es deserialization?
+## 25.- ¿QUE son los terminos iaas,paas,y saas?
+## 25.- ¿QUE es ?
 
 
 
@@ -356,4 +358,5 @@ Ejercicios de practica:
 - buscar un numero en un arreglo de manera optima
 - comprobar si un string es palindromo o no, con espacios,caracteres, mayusculas minusculas etc
 - invertir una cadena de texto sin metodos de string
-
+- encontrar numero fibonacci con memoization
+- 
