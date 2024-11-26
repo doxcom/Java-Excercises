@@ -1,4 +1,4 @@
-
+yo
 # 100 PREGUNTAS Y CONCEPTOS JAVA & SPRINGBOOT & PROGRAMACION
 
 
@@ -336,8 +336,21 @@ https://spring.io/guides/gs/batch-processing
 ## 25.-¿QUE ES REST?
 
 ## 25.-¿QUE DIFERENCIA HAY ENTRE REST Y SOAP?
-## 25.-¿QUE ES ?
+## 25.-¿QUE ES UNA CLASE ANONIMA?
 
+
+## 25.-¿QUE ES UN STREAM EN JAVA?
+
+## 25.-¿QUE UN HILO Y MULTIHILOS?
+
+## 25.- ¿QUE SIGNIFICA FINAL CLASS?
+Que es inmutable y no se puede extender una subclase de ella
+
+## 25.- ¿que es un enum?
+## 25.- ¿QUE es serialization?
+## 25.- ¿QUE es deserialization?
+## 25.- ¿QUE son los terminos iaas,paas,y saas?
+## 25.- ¿QUE es ?
 
 
 
@@ -345,4 +358,5 @@ Ejercicios de practica:
 - buscar un numero en un arreglo de manera optima
 - comprobar si un string es palindromo o no, con espacios,caracteres, mayusculas minusculas etc
 - invertir una cadena de texto sin metodos de string
-
+- encontrar numero fibonacci con memoization
+- 
