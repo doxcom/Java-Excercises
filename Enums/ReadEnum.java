@@ -9,7 +9,7 @@ public class ReadEnum {
 
 
         switch (number){
-            case WINTER:
+           /* case WINTER:
                 return 1;
 
             case SPRING:
@@ -20,7 +20,9 @@ public class ReadEnum {
 
             case SUMMER:
                 return 4;
-        }
+
+        */}
+
 
         return -1;
     }

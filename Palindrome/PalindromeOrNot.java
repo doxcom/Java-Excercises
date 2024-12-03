@@ -15,18 +15,20 @@ public class PalindromeOrNot {
 
         char[] cadena = word.toCharArray();
         for(int i=0, j= cadena.length-1; i<j; i++,j--){
-            if(word.charAt(i) != word.charAt(j) || ((word.charAt(i)-word.charAt(j))*-1!=32)){
+            if(!(word.charAt(i)-word.charAt(j)*-1!=32)){ //valida si son iguales a == A ,
                 return false;
-            }else{
-                i++; j--;
-            }
+
+                //  A  n i t a l a V a l a t i N a
+                //  i                             j
+                //  65           -               97 = -32 * -1 = 32, si sale diferente de 32, entonces no son iguales
+            }   //   65             -            98  = -33 * -1 = 33
 
         }
         return true;
     }
 
-    public static void main(String []args){
-        System.out.println(new PalindromeOrNot().isPalindrome("A man, a plan, a canal: Panama"));
+    public static void main(String []args){                           //i      j
+        System.out.println(new PalindromeOrNot().isPalindrome("-121"));
 
     }
 }
