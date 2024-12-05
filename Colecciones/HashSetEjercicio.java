@@ -17,6 +17,8 @@ public class HashSetEjercicio {
         hs.add("Flea");
         hs.add("John Frusciante");
         hs.add("Chad Smith");
+        hs.add("Flea"); //no imprimira los flea duplicados, x que flea no se puede duplicar ;)
+        hs.add("Flea");
 
         System.out.println(hs);// imprime [Flea, Anthony, John Frusciante, Chad Smith]
           //no imprime en el orden en que los añadimos
