@@ -21,7 +21,7 @@ public class SetEjercicio {
     * */
 
     public static void main(String[] args) {
-        Set<String> setString = new HashSet<String>();
+        Set<String> setString = new HashSet<>();
         Set<Sinico> torturador = new HashSet<>();
 
         //agregamos los elementos a set
