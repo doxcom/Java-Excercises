@@ -1,0 +1,18 @@
+class MainMultipleCaseLineSwitch{
+    public static void main(String[] args) {
+        
+        String lob="KPS";
+        
+        switch(lob){
+            
+            case "ADS":
+                System.out.println("true ads");
+            break;
+            case "KLI","KPI","KPS":
+                System.out.println("true K");
+            break;
+            default:
+                System.out.println("not a LOB");
+        }
+    }
+}
