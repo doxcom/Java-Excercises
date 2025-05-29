@@ -350,6 +350,28 @@ Que es inmutable y no se puede extender una subclase de ella
 ## 61.- ¿QUE es deserialization?
 ## 62.- ¿QUE son los terminos iaas,paas,y saas?
 
+## 63.- ¿Que es una funcion Lambda en AWS?
+
+## 64.- ¿Para que sirve el servicio AWS Cognito?
+
+## 65.- ¿Que es una CDN?
+
+## 66.- ¿Que tipo de almacenamiento es S3?
+
+## 67.- ¿Que es AWS?
+
+## 68.- ¿Que funcion tiene Cloud Watch logs en AWS?
+
+
+
+
+
+
+
+
+
+
+
 
 
 
