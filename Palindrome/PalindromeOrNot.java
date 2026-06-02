@@ -18,10 +18,8 @@ public class PalindromeOrNot {
             if(!(word.charAt(i)-word.charAt(j)*-1!=32)){ //valida si son iguales a == A ,
                 return false;
 
-                //  A  n i t a l a V a l a t i N a
-                //  i                             j
-                //  65           -               97 = -32 * -1 = 32, si sale diferente de 32, entonces no son iguales
-            }   //   65             -            98  = -33 * -1 = 33
+
+            }
 
         }
         return true;
