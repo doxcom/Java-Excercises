@@ -29,6 +29,7 @@ public class BSJava {
           int res = binarySearch(a,0,n-1, xSearch);
 
           System.out.println("element to be searched is: "+ xSearch);
+          System.out.println("element is on position :" + res);
 
           if(res == -1)
               System.out.println("element is not in array");
