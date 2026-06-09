@@ -5,5 +5,4 @@ public interface InterfazFigura {
     //la interfaz no tiene atributos
 
     public double calcularArea();
-
 }
